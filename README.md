@@ -1,83 +1,89 @@
-🍕 Pizza Sales Analysis – Power BI Dashboard
-📌 Project Overview
+# 🍕 Pizza Sales Analysis – Power BI Dashboard
 
-This Power BI project analyzes pizza sales data to identify key business insights such as top-selling products, revenue trends, customer preferences, and overall performance metrics.
-The goal of the dashboard is to help stakeholders make data-driven decisions about marketing, inventory, pricing, and operations.
+## 📌 Project Overview
+This Power BI project analyzes **pizza sales data** to uncover business insights such as revenue trends, top-performing pizzas, customer behavior, and operational patterns.  
+The dashboard helps decision-makers optimize **marketing, inventory, and production** using data-driven insights.
 
-📁 Files in This Repository
-File	Description
-PIZZA_SALES_DSHB.pbix	Main Power BI dashboard file
-pizza_sales.csv	Raw dataset used for analysis
-/images	Contains dashboard screenshots for quick preview
-README.md	Documentation (this file)
+---
 
-🎯 Business Objectives
+## 📁 Files in This Repository
+| File | Description |
+|------|-------------|
+| **PIZZA_SALES_DSHB.pbix** | Power BI dashboard file |
+| **pizza_sales.csv** | Raw dataset used for analysis |
+| **/images** | Dashboard screenshots |
+| **README.md** | Project documentation |
 
-This dashboard answers important sales questions, including:
-Which pizza categories and pizza types generate the most revenue?
-Which days and months have the highest sales?
-What are the top 10 best-selling pizzas?
-What operational trends can help optimize production and marketing?
+---
 
-📊 Dashboard Features
+## 🎯 Business Objectives
+This dashboard helps answer key questions:
 
-1️⃣ KPI Cards
+- Which pizza categories/types generate the highest revenue?
+- Which days/months receive the most orders?
+- What are the top 5 best-selling pizzas?
+- How can we optimize business operations based on sales trends?
 
-Total Revenue
-Total Orders
-Average Order Value
-Total Quantity Sold
+---
 
-2️⃣ Sales Analysis
+## 📊 Dashboard Features
 
-Sales by Pizza Category (Classic, Supreme, Veggie, Chicken, etc.)
-Sales by Pizza Size (S, M, L, XL)
-Hourly/Monthly sales trend visualizations
+### **1️⃣ KPI Cards**
+- Total Revenue  
+- Total Orders  
+- Total Quantity Sold  
+- Average Order Value  
+- Average Pizza per order
+### **2️⃣ Sales Analysis**
+- Sales by Pizza Category  
+- Sales by Pizza Size  
+- Monthly & Daily Sales Trend  
 
-3️⃣ Top Performers
+### **3️⃣ Top Performers**
+- Top 5 Pizzas by Revenue  
+- Top 5 Pizzas by Quantity Sold
+- etc
 
-Top 5 Pizzas by Revenue
-Top 5 Pizzas by Quantity Sold
+### **4️⃣ Time-Series Insights**
+- Monthly Revenue Trend  
+- Daily Order Trend  
 
-4️⃣ Time-Series Insights
+### **5️⃣ Interactive Filters**
+- Category Slicer  
+- Pizza Size Slicer  
+- Date Filters  
 
-Revenue trend across months
-Daily order trends
-Identifying peak sales days
+---
 
-5️⃣ Interactive Filters
+## 🧠 Key Insights
+- **Classic pizzas generate the highest total revenue.**
+- **Large-sized pizzas are the most sold**, contributing major revenue.
+- **Friday and weekends show peak order volume.**
+- **Top-selling pizzas contribute significantly to overall sales.**
+- Strong **weekly and monthly patterns** help in planning promotions and inventory.
 
-Category slicers
-Pizza size slicers
-Date filters
+---
 
-🧠 Key Insights
+## 🛠️ Tech Stack Used
+- **Power BI Desktop**
+- **Power Query** for data cleaning
+- **DAX Measures** for KPIs  
+  Example:
+  ```DAX
+  Total Revenue = SUM(pizza_sales[total_price])
+  📂 How to Open the Project
 
-Here are the most important business insights found in the dashboard (general placeholders—you can update based on your actual numbers):
-
-Classic pizzas generate the highest total revenue.
-Large-size pizzas are the most popular, contributing a major portion of sales.
-Fridays and weekends show the highest order volume, indicating peak demand times.
-The top-selling pizza contributes significantly to monthly revenue trends.
-Sales show strong seasonal/weekly patterns, useful for promotional planning.
-
-🛠️ Tech Stack
-
-Power BI Desktop
-Data cleaning using Power Query
-DAX Measures for KPIs (example):
-
-Total Revenue = SUM(pizza_sales[total_price])
-Total Orders = DISTINCTCOUNT(pizza_sales[order_id])
-
-📂 How to Open the Project
+How to open the Project
 
 Download or clone this repository.
-Open Power BI Desktop.
-Double-click PIZZA_SALES_DSHB.pbix.
-Explore visuals, filters, and insights.
+Install and open Power BI Desktop.
+Open PIZZA_SALES_DSHB.pbix.
+Explore visuals and interact with filters.
 
-💡 Author
-
+👨‍💻 Author
 Piyush Pawar
-Data Analyst Enthusiast | Power BI | SQL | Python
+Data Analyst Enthusiast
+Skills: Power BI | SQL | Excel | Python
+
+
+  
