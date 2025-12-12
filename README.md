@@ -76,13 +76,19 @@ This dashboard helps answer key questions:
 How to open the Project
 
 Download or clone this repository.
+
 Install and open Power BI Desktop.
+
 Open PIZZA_SALES_DSHB.pbix.
+
 Explore visuals and interact with filters.
 
 👨‍💻 Author
+
 Piyush Pawar
+
 Data Analyst Enthusiast
+
 Skills: Power BI | SQL | Excel | Python
 
 
